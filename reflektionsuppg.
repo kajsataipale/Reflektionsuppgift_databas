@@ -1,0 +1,89 @@
+Reflektionsuppgift Yrgo
+Webbutvecklare - Databaser 2017
+Kajsa Taipale
+19910902
+
+
+Kurs och lärmaterial
+* Jag har sett runt 20 av föreläsningsfilmerna, jag kände att det gav mig mer att gå på själva föreläsningarna och göra övningarna. Om det var något jag inte hade förstått eller kände mig osäker på så kollade jag igenom de filmer som berörde detta. 
+
+* Det är en fin tanke med de här föreläsningsfilmerna men det känns lite dubbelt att exakt samma föreläsningsfilm ligger uppe och att sen på själva föreläsningen så går man igenom exakt samma. 
+
+Jag har gjort alla övningar med något enstaka undantag. Vissa har jag haft svårt att förstå vad övningen vill att man skall utföra. 
+
+Jag har tyvärr inte hunnit att kika på på de extramaterial som legat uppe. En önska hade varit om vi hade haft fler tillfällen då man hade kunnat arbeta vidare med detta. De material som ligger uppe kommer man kunna arbeta vidare med och framförallt öva med så man kan bli ännu bättre på att hantera databaser.
+
+Mitt Lärande:
+Jag känner att jag har hängt med. Även om jag inte har hunnit göra exakt alla övningar eller kolla på alla videos innan föreläsningarna så känner jag ändå att jag har förstått och hängt med. 
+Inlämningsuppgifterna gjorde jag väldigt snabbt och lämnade in i väldigt god tid. 
+Jag har inte känt att jag har legat förre utan mer i fas, om det är något jag har fattat och andra inte hade så hjälpte jag dem. 
+Det var ofta man satt i grupp och gjorde uppgifterna och stöttade varandra.
+Jag la nog ner 3h per vecka utöver lektionerna i början och känner ändå att det har varit tillräckligt. Det är otroligt mycket information som skall processas så det är nog bra att låta informationen sjunka in också.
+När alla inlämningsuppgifter var inlämnade så sjönk timmarna utöver, något som kanske hade kunnat undvikas ifall man hade fler inlämningsuppgifter med kortare deadline. 
+Jag har siktat på betyget G då jag i början hade dåligt självförtroende och trodde att det skulle vara svårt att fatta, men nu när kursen är färdig känner jag att det inte var så svårt som jag trodde.
+Jag har absolut nått målen för betyget G. Nu i efterhand känner jag att jag i början hade kunnat sikta på VG istället.
+
+
+
+
+Databasens roll: 
+Databasens roll i ett webbsystem är att ta emot, spara och lagra data, alltså information.
+Informationen från databasen används sedan av olika webbsystem.
+
+Ett verklighetstroget exempel skulle kunna vara Facebook, om man inte har ett konto där måste man skapa ett. Alltså är det användaren som fyller i uppgifter som senare kommer lagras i databasen.
+
+Databasens integritet:
+Datan är endast tillförlitlig om den har först in i databasen på rätt sätt. Man kan bland annat använda constraints, detta för att kunna begränsa vilken typ av data som är möjligt att föra in i en kolumn.
+Sedan måste man även se till att samma information inte finns i flera olika tabeller, detta kan undvikas genom användning utav foreign keys. Dessa ser till att referera till relaterande kolumner i en annan tabell.
+Ett exempel skulle kunna vara att användaren inte skall kunna föra in fel typ av data, exempel på vilket sätt man skall skriva in sitt personnummer eller email adress (att man skriver 19910902xxxx och inte 910902-xxxx).
+
+
+Hotellbokningssystem:
+För att skapa de olika tabellerna så skulle jag för strukturera upp va för typ av tabeller jag behöver.
+På ett hotell finns det flera olika rum och i varje rum så kan en eller flera personer bo.
+
+Jag skulle skapa då tabellerna : rum.
+I denna tabell skulle det finnas tabeller. I tabellerna skulle det finnas vilket typ av rum det var: enkel eller dubbel exempelvis.
+Alla rum skulle ha ett unikt id dessa är även primary key, om rummet är upptaget eller ej, sedan vilka gäster som bor i rummet.
+
+En tabell för gästerna, där all information om gästen sparas( såsom email, namn, personnummer, telefonnummer) där gästens personnummer skulle kunna vara en primary key, vilket rum id den skall bo i och hur många nätter samt om gästen har fler gäster med sig, så skulle de vara sammanlänkade.
+
+Sedan skulle man kunna använda Join för att se vilken gäst är i vilket rum, för när de skall betala eller sätter upp något på notan.
+Update när dagarna blir ändrade eller när rummet blir ledigt samt om antal gäster för ett rum blir ändrat.
+
+Ämnen jag saknat:
+Jag kan inte direkt säga att jag har saknat något, känner att jag har fått en grundläggande förståelse.
+Dock hade det varit roligt att gå in djupare på de extra material ni har lagt upp samt lite mer om de script ni talat om på föreläsningarna.
+
+Teman:
+The basics- Select, Update, Delete, Insert
+Scraping data - Hämta data från hemsidor
+Bash - Större förståelse för bash
+Databas + php - Djupare förståelse för hur php och databaser hänger ihop
+
+Beskrivning:
+Jag har lärt mig hur man skapar en databas med tillhörande tabeller, hur man skall länka ihop dessa tabeller samt hur man uppdaterar eller raderar dessa tabeller.
+Jag har lärt mig hur viktigt det är att bestämma på vilket informationen skall se ut och att tabellerna är relevanta och innehåller nödvändig information.
+
+Kursutvärdering:
+Jag tycker att denna kurs har varit väldigt rolig, detta är en väldigt stor del tack vare er lärare. 
+Ni har gjort att de långa föreläsningarna har behållits intressanta och givande.
+
+ Det är väldigt bra att ni har samlat allt material på ett och samma ställe, sen kan mängden kännas något övermäktig. Jag tyckte de kortade videorna där ni gick igenom vissa specifika saker  var mer givande istället för dem videorna som gick igenom hela föreläsningen. 
+
+Lärarna har varit kanon, verkligen super!
+
+Kursen var roligare och mer lättförståelig än jag hade förväntat mig! Så det överträffade verkligen mina förväntningar.
+
+
+Nu när kursen är slut så har detta gett mig en enorm förståelse hur allt hänger ihop.
+Framförallt kopplat med programmeringskursen då.
+
+Jag hade väldigt låga förväntningar på mig själv i denna kurs så känner att jag verkligen har tagit till mig det som har lärts ut. Jag har varit engagerad och intresserad under kursen. 
+
+Ett annat upplägg hade kunnat vara mindre uppgifter under en längre tid samt att det fanns en databas kurs 2, där man kunde gå in djupare i ämnet.
+
+Det hade varit bra att om ni under föreläsningarna visade vad det ni går igenom, mer live exempel. 
+Det hade ibland varit lättare att förstå om ni visat i bash.
+
+
